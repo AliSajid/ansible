@@ -24,7 +24,7 @@ DOCUMENTATION = '''
 module: s3_sync
 short_description: Efficiently upload multiple files to S3
 description:
-     - The S3 module is great, but it is very slow for a large volume of files- even a dozen will be noticeable. In addition to speed, it handles globbing,
+     - The S3 module is great, but it is very slow for a large volume of files- even a dozen will be noticeable. This module allwows for easier and faster syncing of entire directories to an S3 bucket. In addition to speed, it handles globbing,
        inclusions/exclusions, mime types, expiration mapping, recursion, cache control and smart directory mapping.
 version_added: "2.3"
 options:
